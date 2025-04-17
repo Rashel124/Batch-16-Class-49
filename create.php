@@ -6,8 +6,8 @@
 <?php
     if(isset($_POST['submit'])){
 
-        $name = $_POST['name']; //Muntasir
-        $roll = $_POST['roll']; //100
+        $name = $_POST['name']; 
+        $roll = $_POST['roll']; 
         $class = $_POST['class'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
@@ -81,7 +81,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Address:</label>
-                <textarea name="address" id="" class="form-control" required></textarea>
+                <textarea class="form-control" id="exampleInputPassword1" name="address" value="" required></textarea> 
             </div>
             <button type="submit" name="submit" class="btn btn-primary">Submit</button>
         </form>
